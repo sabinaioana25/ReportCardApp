@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.android.reportcard.MainActivity">
+
+    <TextView
+        android:id="@+id/report_card_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name "
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/report_card_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID "
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/report_card_maths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maths "
+        android:fontFamily="serif-monospace"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/report_card_physics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Physics "
+        android:fontFamily="serif-monospace"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/report_card_coding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coding "
+        android:fontFamily="serif-monospace"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/report_card_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English "
+        android:fontFamily="serif-monospace"
+        android:textSize="16sp"/>
+
+</LinearLayout>
